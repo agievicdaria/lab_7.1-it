@@ -45,13 +45,6 @@ int main() {
     cout << "Відсортований масив:" << endl;
     Print(originalArray, rowCount, colCount);
 
-    // for (int i = 0; i < rowCount; i++) {
-    //     delete[] a[i];
-    //     delete[] originalArray[i];
-    // }
-    // delete[] a;
-    // delete[] originalArray;
-
     for (int i = 0; i < rowCount; i++)
         delete[] a[i];
     delete[] a;
